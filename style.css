@@ -1,0 +1,81 @@
+:root{
+    --color: #CBD928;
+    --bgcolor: #061E2E;
+    --darkcolor: #102B3C;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container .navbar-toggler:focus{
+    box-shadow: none;
+}
+.nav-item .nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.container .navbar-toggler[aria-expanded='true']{
+    border-color: var(--color);
+}
+
+.nav-item .nav-link:hover{
+    color: var(--color);
+}
+
+.container .navbar-brand:hover{
+    color: var(--color);
+}
+
+.container-img0 img{
+    width: 612px;
+    height: 604px;
+    
+}
+
+.landing{
+    background-color: var(--bgcolor);
+    min-height: calc(100vh - 48px);
+}
+.landing .text-style{
+    font-size: 20px;
+}
+
+.color-text{
+    color: var(--color);
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+    border-bottom: solid #CBD928 2px;
+    margin: auto;
+
+}
+
+.title{
+    position: relative;
+}
+
+
+
+.portfolio{
+    background-color: var(--bgcolor);
+    min-height: 100vh;
+}
+
+.card:hover{
+    transform: scale(1.05,1.05);
+    transition: .5s ease;
+    
+}
+.our-work .card img{
+    height: 290px;
+}
+
+.services{
+    background-color: var(--darkcolor);
+}
+
+.Footer{
+    background-color: var(--bgcolor);
+}
